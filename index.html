@@ -17,7 +17,7 @@ layout: default
             <span class="byline">{{post.location}}</span>
         </div>
     </header>
-    {{ post.content | split:'<!-- excerpt end -->' | first | split:'<!-- excerpt start -->' | last }}
+    {{ post.content | truncate: 1000 }}
     <br/>
     <a href="{{post.url}}" class="more-link">Continue Reading <span class="meta-nav">→</span></a>
 </article>
