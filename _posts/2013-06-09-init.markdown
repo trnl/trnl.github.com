@@ -1,0 +1,6 @@
+---
+layout: post
+title: init
+location: Minsk
+---
+I can't write, that's why I write.
